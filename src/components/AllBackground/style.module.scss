@@ -1,6 +1,5 @@
 .allBackground {
   height: 100vh;
-  // background: red;
   padding-top: 4rem;
 
   .contentAllBackground {
@@ -11,6 +10,14 @@
     align-items: center;
     justify-content: space-between;
 
+    article {
+      h1 {
+        font-size: 1.9rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        // width: 80%;
+      }
+    }
     img {
       width: 60%;
     }
