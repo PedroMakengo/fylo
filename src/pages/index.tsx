@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { AllBackground } from '../components/AllBackground'
+import { Productive } from '../components/Productive'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <AllBackground />
+      <Productive />
     </div>
   )
 }
