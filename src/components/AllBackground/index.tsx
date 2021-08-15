@@ -1,14 +1,22 @@
+import { useState } from 'react';
 import { FormEvent } from 'react';
 import { Form } from '../Form';
 
 import style from './style.module.scss';
 
 export function AllBackground() {
+  const [email, setEmail] = useState('');
   
   function handleSubmit(event: FormEvent) {
     event.preventDefault();
 
-    alert("Testando");
+    if(!email) {
+      alert("Verifica o seu e-mail");
+    }
+
+    console.log(email);
+
+    setEmail('');
   }
 
   return(
@@ -22,7 +30,12 @@ export function AllBackground() {
             Access them wherever you need, share and collaborate with friends,
              family, and co-workers.
           </p>
-          <Form onSubmit={handleSubmit} placeholder="Enter you email..." />
+          <Form 
+            onSubmit={handleSubmit}
+            onChange={(event) => setEmail(event.target.value)}
+            value={email}
+            placeholder="Enter you email..." 
+          />
         </article>
         <img src="/images/illustration-1.svg" alt="Ilustration-1" />
       </div>
