@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { AllBackground } from '../components/AllBackground'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/images/favicon-32x32.png" />
       </Head>
 
-      {/* <h1>Hello World Fylo</h1> */}
+      <AllBackground />
     </div>
   )
 }

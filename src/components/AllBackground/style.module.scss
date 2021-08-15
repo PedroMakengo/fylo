@@ -1,0 +1,19 @@
+.allBackground {
+  height: 100vh;
+  // background: red;
+  padding-top: 4rem;
+
+  .contentAllBackground {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 60%;
+    }
+  }
+}
+
