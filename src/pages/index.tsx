@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { AllBackground } from "../components/AllBackground";
+import { Footer } from "../components/Footer";
 import { GetAccess } from "../components/GetAccess";
 import { Productive } from "../components/Productive";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <AllBackground />
       <Productive />
       <GetAccess />
+      <Footer />
     </div>
   );
 }
