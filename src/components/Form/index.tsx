@@ -1,15 +1,15 @@
-import style from './style.module.scss';
+import style from "./style.module.scss";
 
 export function Form(props) {
-  return(
+  return (
     <form onSubmit={props.onSubmit} className={style.form}>
-      <input 
-        type="text" 
+      <input
+        type="text"
         onChange={props.onChange}
-        value={props.value} 
-        placeholder={props.placeholder} 
+        value={props.value}
+        placeholder={props.placeholder}
       />
-      <button>Get Started</button>
+      <button>{props.valueButton || "Get Started"}</button>
     </form>
   );
 }

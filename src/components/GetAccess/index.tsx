@@ -13,7 +13,7 @@ export function GetAccess() {
             would be happy to help you.
           </p>
         </article>
-        <Form />
+        <Form placeholder="email@example.com" valueButton="Get Started Free" />
       </div>
     </section>
   );
