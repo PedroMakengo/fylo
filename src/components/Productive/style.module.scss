@@ -1,0 +1,28 @@
+.productive {
+  margin-top: -8rem;
+  .background {
+    background-image: url(../../../public/images/bg-curve-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10rem;
+  }
+  .contentProductive {
+    margin-top: -2em;
+    background: #f8f8fe;
+
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 5rem 0;
+
+      img {
+        width: 40%;
+      }
+    }
+  }
+}
