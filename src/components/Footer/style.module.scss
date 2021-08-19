@@ -10,10 +10,14 @@
     justify-content: space-between;
     padding: 5rem 0;
 
-    nav {
-      display: flex;
-      width: 100%;
+    .item {
+      & + .item {
+        display: flex;
+        align-items: center;
+      }
+
       a {
+        display: block;
         color: #fff;
         text-decoration: none;
       }
