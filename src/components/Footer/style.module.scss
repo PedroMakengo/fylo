@@ -11,9 +11,11 @@
     padding: 5rem 0;
 
     .item {
+      width: 50%;
+      height: 100px;
+
       & + .item {
         display: flex;
-        align-items: center;
       }
 
       a {
