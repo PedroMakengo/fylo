@@ -31,6 +31,10 @@ export function Productive() {
               </p>
               <div>
                 <img src="./images/avatar-testimonial.jpg" alt="" />
+                <span>
+                  <strong>Kyle Burton</strong> <br />
+                  <small>Founder & CEO, Huddle </small>
+                </span>
               </div>
             </div>
           </article>
